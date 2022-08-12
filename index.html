@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/CSS/app.css">
+    <!--Tipografias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;600&family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <!--font-family: 'Montserrat Alternates', sans-serif; TITULOS, BOTONES
+        
+    font-family: 'Roboto', sans-serif; TEXTO -->
+    <link rel="shortcut icon" href="src\img\logo.ico" >
+    <title>Asesoria Web</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <picture>
+                <source srcset="build\img\logo.avif" type="image/avif">
+                <source srcset="build\img\logo.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build\img\logo.png" alt="logo document">
+            </picture>
+            <h3 class="bold">Desarrollo Web</h3>
+        </div>
+
+        <nav>
+            <div class="enlaces">
+                <a class="hover" href="#home">Home</a>
+                <a class="hover" href=" #servicios">Servicios</a>
+                <a class="hover" href=" #capacidades">Capacidades</a>
+            </div>
+
+            <div class="imagenes">
+                <a href="https://www.youtube.com/channel/UCL_SEnRxnF2glcU_sJAC7Hg/featured">
+                    <picture>
+                        <source srcset="build\img\youtube.avif" type="image/avif">
+                        <source srcset="build\img\youtube.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build\img\youtube.png" alt="Icono Youtube">
+                    </picture>
+                </a>
+
+
+                <button><a href="#contacto">Contactanos</a></button>
+
+            </div>
+
+
+        </nav>
+       
+    </header>
+   
+    <section id="home" class="home contenedor">
+       <br><br>
+        <h1>Asesor Proyectos Web</h1>
+        <p>Desarrollo Front-End</p>
+        <div class="imagenes_home">
+            <picture>
+                <source srcset="build\img\1.avif" type="image/avif">
+                <source srcset="build\img\1.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="src\img\1.png" alt="Imagen decorativa Computador">
+            </picture>
+            <picture class="abajo">
+                <source srcset="build\img\2.avif" type="image/avif">
+                <source srcset="build\img\2.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build\img\2.png" alt="Imagen decorativa Computador">
+            </picture>
+            <picture>
+                <source srcset="build\img\3.avif" type="image/avif">
+                <source srcset="build\img\3.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build\img\3.png" alt="Imagen decorativa Computador">
+            </picture>
+        </div>
+    </section>
+    <section id="servicios" class="servicio contenedor">
+        <br><br> <br><br><br><br> 
+        <h2>Nuestro <span class="bold">Servicio</span></h2>
+        <div>
+            <picture>
+                <source srcset="build\img\nuestro_servicio.avif" type="image/avif">
+                <source srcset="build\img\nuestro_servicio.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build\img\nuestro_servicio.jpg"
+                    alt="imagen decorativa escritorio">
+            </picture>
+
+            <p>Gracias a nuestra experiencia en desarrollo web con las tecnologías mas usadas hoy en día podemos
+                asesorar a nuestros clientes en todo tipo de proyectos . </p>
+        </div>
+    </section>
+    <section id="capacidades" class="capacidades contenedor">
+        <br><br> <br><br><br><br>
+        <h2>Nuestras <span class="bold">capacidades</span></h2>
+        <div>
+            <div>
+                <picture>
+                    <source srcset="build\img\tecnologias.avif" type="image/avif">
+                    <source srcset="build\img\tengologias.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="src\img\tecnologias.png"
+                        alt="Imagen de tecnologias">
+                </picture>
+                <h3 class="bold">Tecnologias</h3>
+                <p>Diseño profecional en tecnologias: <span>HTML, CSS, Js,Sass</span></p>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="build\img\contacto.avif" type="image/avif">
+                    <source srcset="build\img\contacto.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build\img\contacto" alt="imagen de contacto">
+                </picture>
+                <h3 class="bold">Contacto</h3>
+                <p><span>Contacto RAPIDO y directo </span>para resolver problemas en proyectos de todo tipo</p>
+
+            </div>
+            <div>
+                <picture>
+                    <source srcset="build\img\resultados.avif" type="image/avif">
+                    <source srcset="build\img\resultados.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build\img\resultados" alt="imagen de resultados">
+                </picture>
+                <h3 class="bold">Resultados</h3>
+                <p>Se garantizan <span>resultados eficientes</span> y faciles de aplicar a cualquier proyecto</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto contenedor">
+        <br><br> <br><br><br><br>
+        <h2 class="bold">Contactanos</h2>
+        <p>Da el primer paso para hacer <span class="bold">tu proyecto realidad</span> completamente gratis<br> </p>
+        <form action="https://formsubmit.co/jestebansant@gmail.com" method="POST">
+            <input class="email" type="email" name="email" placeholder="Email" required>
+            <textarea class="texto" name="name" placeholder="Solicitud" required></textarea>
+
+            <input type="hidden" namne="_next" value="http://127.0.0.1:5501/">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <picture>
+                <!-- <source srcset="build\img\youtube.avif" type="image/avif">
+                <source srcset="build\img\youtube.webp" type="image/webp"> -->
+                <img loading="lazy" width="200" height="300" src="src\img\youtube_blanco.png" alt="Icono youtube">
+            </picture>
+            <p>EMAIL: jestebansant@gmail.com</p>
+            <p>TEL: +57 317-358-8999</p>
+            <a href="https://www.youtube.com/channel/UCL_SEnRxnF2glcU_sJAC7Hg/featured">
+
+            </a>
+        </div>
+
+    </footer>
+    <script src="build\js\app.js"></script>
+</body>
+
+</html>
